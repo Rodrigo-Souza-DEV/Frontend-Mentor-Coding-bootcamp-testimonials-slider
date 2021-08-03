@@ -1,0 +1,232 @@
+/*Color primary*/
+/*fonts*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.attribution a {
+  color: #3e52a3; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#article-text2 {
+  display: none; }
+
+#face2 {
+  display: none; }
+
+body {
+  background-image: url("../images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 55%;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  color: #202046; }
+
+main {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 68px; }
+
+article {
+  width: 660px;
+  background-repeat: no-repeat;
+  height: 375px;
+  background-position: center top;
+  background-image: url("../images/pattern-quotes.svg");
+  padding-top: 70px; }
+
+article #article-text, article #article-text2 {
+  width: 625px;
+  height: 280px;
+  position: relative;
+  left: 100px; }
+
+p {
+  font-weight: 300;
+  padding-bottom: 45px;
+  letter-spacing: 0px;
+  word-spacing: -1px; }
+
+#span1 {
+  font-size: 21px;
+  font-weight: 700; }
+
+#span2 {
+  font-size: 21px;
+  font-weight: 300;
+  color: #babacf; }
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 710px;
+  height: 680px;
+  background-image: url("../images/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+aside #face img,
+aside #face2 img {
+  width: 540px;
+  height: 540px;
+  margin-right: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 25px 20px rgba(56, 56, 56, 0.438); }
+
+#bt {
+  width: 115px;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -36px;
+  right: 172px;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 20px rgba(56, 56, 56, 0.438); }
+
+#bt1,
+#bt2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer; }
+
+#bt1 {
+  width: 50%;
+  border-radius: 50px 0 0 50px; }
+
+#bt2 {
+  width: 50%;
+  border-radius: 0 50px 50px 0; }
+
+@media only screen and (max-width: 1200px) {
+  main {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin: auto; }
+
+  main aside {
+    height: auto;
+    width: 100%;
+    background-size: contain; }
+
+  aside #face img {
+    margin: 60px 0 0 0;
+    width: 90%;
+    height: 90%; }
+
+  aside #face2 img {
+    margin: 60px 0 0 0;
+    width: 90%;
+    height: 90%; }
+
+  span {
+    display: block;
+    margin-bottom: 5px; }
+
+  main article {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    left: 0;
+    width: 80%; }
+
+  main article #article-text {
+    position: static;
+    height: auto; }
+
+  main article #article-text2 {
+    position: static;
+    height: auto; }
+
+  #bt {
+    left: 0; }
+
+  .attribution {
+    margin-top: 20px;
+    padding: 0 20px; } }
+@media only screen and (max-width: 405px) {
+  body {
+    background-size: 70%; }
+
+  main {
+    padding: 0 20px;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%; }
+
+  main aside {
+    height: 365px; }
+
+  p {
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+    margin-top: 40px; }
+
+  #bt {
+    width: 80px;
+    height: 42px;
+    top: -33;
+    left: 0; }
+
+  aside #face img {
+    width: 261px;
+    height: 261px;
+    margin: 25px 0 0 0; }
+
+  aside #face2 img {
+    width: 261px;
+    height: 261px;
+    margin: 25px 0 0 0; }
+
+  main article {
+    background-size: 20%;
+    height: auto; }
+
+  main article #article-text span, main article #article-text2 span {
+    font-size: 16px;
+    display: block;
+    text-align: center; }
+
+  article #article-text, article #article-text2 {
+    width: 100%;
+    height: auto; }
+
+  aside,
+  article,
+  #article-text {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto; }
+
+  .attribution {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 0 20px; }
+
+  article #article-text, article #article-text2 {
+    left: 0; } }
